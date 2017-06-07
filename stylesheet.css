@@ -1,0 +1,291 @@
+
+
+body{
+    background-image: url("bilder/background-fahrer.jpg");
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    opacity: 0.8;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+
+
+
+
+}
+
+.header li{
+
+    display: inline-block;
+    list-style-type: none;
+
+
+
+}
+
+.header li a{
+    float: right;
+    position: relative;
+    left: 100px;
+    top: 30px;
+    background-color: #555260;
+    color: white;
+    font-size: 25px;
+    border: 1px solid lightgray;
+    padding: 2px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px black;
+    text-decoration: none;
+}
+.header li a:focus{
+    background-color: #479137;
+}
+.header li a:hover{
+    background-color: #479137;
+}
+.header li a:active{
+    background-color: #479137;
+}
+
+.logo img{
+
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 15px;
+    top: 10px;
+
+
+}
+.logo2 img{
+    float: right;
+    width: 200px;
+    height: 98px;
+    position: relative;
+    top: -63px;
+    right: 15px;
+}
+.content{
+    background-color: #555260;
+    width: 55%;
+    float: left;
+    min-height: 500px;
+    position: relative;
+    opacity: 0.7;
+    top: 60px;
+    left: 4%;
+
+    box-shadow: 2px 2px 2px black;
+    border: 1px solid lightgray;
+}
+
+.contentheader h1{
+    background-color: #4CAF50;
+    height: 50px;
+    position: relative;
+    top: -21px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    opacity: 1.0;
+
+
+}
+
+.content h2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    opacity: 1.0;
+}
+.content p{
+    color: white;
+    text-align: center;
+    opacity: 1.0;
+}
+
+.ranking{
+    float: right;
+    width: 18%;
+    height: 300px;
+    position: relative;
+    right: 15px;
+    top: -1px;
+    opacity: 0.9;
+    background-color: #555260;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.rankingheader h1{
+    background-color: #4CAF50;
+    height: 50px;
+    position: relative;
+    top: -21px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.ranking h2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.ranking p{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -10%;
+
+}
+
+.sidebar{
+    float:left;
+    width: 18%;
+    height: 300px;
+    background-color: #555260;
+    position: relative;
+    left: 15px;
+    top: 60px;
+    opacity: 0.9;
+    box-shadow: 2px 2px 2px black;
+    border: 1px solid lightgray;
+
+}
+
+.sidebarheader h1{
+    background-color: #4CAF50;
+    height: 50px;
+    position: relative;
+    top: -21px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.sidebar p{
+    position: relative;
+    top: -10%;
+    color: white;
+    text-align: center;
+}
+.login{
+    position: relative;
+    top: -10%;
+}
+.login label{
+    color: white;
+    position: relative;
+    left: 18%;
+}
+.login input[type = text], input[type = password]{
+    position: relative;
+    left: 18%;
+    width: 70%;
+    border: 1px solid #ccc;
+}
+
+.login button{
+    width: 70%;
+    color: white;
+    background-color:#4CAF50;
+    border: 1px solid #4CAF50;
+}
+.login button:hover{
+    opacity: 0.8;
+}
+.login button[type= submit]{
+    position: relative;
+    left: 18%;
+}
+.autologin input[type = checkbox] {
+    position: relative;
+    left: 20%;
+    top: 2px;
+
+}
+.autologin label{
+    color: white;
+    position: relative;
+    left: 20%;
+
+}
+.autologin label a{
+    color: lawngreen;
+}
+.autologin label a:hover{
+    color: limegreen;
+}
+
+.forgotpassword label{
+    color: white;
+    position: relative;
+    left: 25%;
+
+}
+
+.forgotpassword a{
+    color: lawngreen;
+}
+
+.forgotpassword a:hover{
+    color: limegreen;
+}
+
+.footer{
+    float: bottom;
+    width: 100%;
+    opacity: 0.8;
+    height: 30px;
+    background-color: #555260;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+   border: 0.5px solid lightgray;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
+
+
+}
+
+
+
+
+
+.footer  p{
+    position: fixed;
+    bottom: -10px;
+    left: 12.5%;
+    color: white;
+
+
+
+}
+
+.footer p a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer p a:hover{
+    text-decoration: underline;
+    color: chartreuse;
+}
+
+
+
